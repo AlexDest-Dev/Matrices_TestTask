@@ -13,8 +13,6 @@ namespace _Project.Code
         private OffsetsCalculator.OffsetsCalculator _offsetsCalculator;
         private OffsetsWriter _offsetsWriter;
 
-        private List<Matrix4x4> offsets;
-
         private CancellationTokenSource cts;
 
         [Inject]
