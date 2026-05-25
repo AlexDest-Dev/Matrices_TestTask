@@ -21,7 +21,6 @@ namespace _Project.Code
         private void Construct(OffsetsCalculator.OffsetsCalculator offsetsCalculator,
             OffsetsVisualiser.OffsetsVisualiser offsetsVisualiser, OffsetsWriter offsetsWriter)
         {
-            cts = new CancellationTokenSource();
             _offsetsCalculator = offsetsCalculator;
             _offsetsVisualiser = offsetsVisualiser;
             _offsetsWriter = offsetsWriter;
